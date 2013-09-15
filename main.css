@@ -23,7 +23,7 @@
 #container {
 	display:block;
 	clear:both;
-	min-width: 510px;
+	min-width: 800px;
 	min-height: 850px;
 
 }
@@ -72,18 +72,24 @@ p {
 }
 
 
-nav>ul>li>h2 {
+nav>ul>li>a>h2 {
  	display: inline;
  	margin-left: 20px;
  	text-transform: uppercase;
  	font-weight: 200;
  	font-size: 20pt;
  	vertical-align:	25px;
+ 	text-decoration: none;
+ 	color: #9C9A9A;
 }
 
 nav>ul>li:hover h2 {
 	color: #86171A;
 	font-weight: 800;
+}
+
+a:hover {
+	text-decoration: none;
 }
 
 nav>ul>li:hover .block {
@@ -103,11 +109,12 @@ li {
 
 footer {
 	display: block;
-	position: absolute;
 	bottom: 0;
 	color: #B8B8B8;
 	text-align: center;
 	clear: both;
+	margin-top: 250px;
+	min-width: 175px;
 }
 
 footer div {
