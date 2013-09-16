@@ -69,6 +69,7 @@ p {
 	width: 75px;
 	display: inline-block;
 	margin: 12px 0px auto 50px;
+	cursor: pointer;
 }
 
 
@@ -81,6 +82,7 @@ nav>ul>li>a>h2 {
  	vertical-align:	25px;
  	text-decoration: none;
  	color: #9C9A9A;
+ 	cursor: pointer;
 }
 
 nav>ul>li:hover h2 {
@@ -109,6 +111,7 @@ nav {
 li {
 	margin: 22px 0 22px 35px;
 	height: 75px;
+	cursor: pointer;
 }
 
 footer {
