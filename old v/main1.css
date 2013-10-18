@@ -1,0 +1,99 @@
+.container-fluid{
+	background: #F2F2F2;
+}
+
+#header{
+	height: 432px;
+	position: relative;
+	border-bottom: 4px solid #4D4D4D;
+	border-top: 4px solid #4D4D4D;
+
+}
+
+#header_image {
+	background-image: url('./Images/Road.png'); 
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.55; 
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#main_content{
+	z-index: 2;
+	position: relative;
+}
+
+h2, h3, h4, h5, h6 {
+	font-family: Graphik;
+}
+
+#top_half h1 {
+	font-family: Gotham-Black;
+	font-size: 32pt;
+	padding: 104px 0px 30px 108px;
+	position: relative;
+}
+
+.block{
+ 	background-color: #C1272D;
+	height: 75px;
+	width: 75px;
+	display: inline-block;
+	margin: 12px 0px auto 50px;
+}
+
+nav>ul>li>h2 {
+ 	display: inline;
+ 	margin-left: 20px;
+ 	text-transform: uppercase;
+ 	font-weight: 300;
+ 	font-size: 25pt;
+ 	vertical-align:	25px;
+}
+
+nav>ul>li:hover {
+	color: #A10505;
+}
+
+nav>ul>li:hover .block {
+	background-color: #A10505;
+}
+
+
+nav {
+ 	padding-top: 50px;
+}
+
+li {
+	margin: 22px 0 22px 35px;
+	height: 75px;
+}
+
+#bottom_half {
+	padding: 50px;
+}
+
+#bottom_half h3 {
+	font-weight: 400;
+	font-size: 28px;
+}
+
+p {
+	font-size: 16px;
+	font-weight: 300;
+}
+
+.footer {
+	clear: both;
+	color: #B8B8B8;
+	text-align: center;
+}
+
+.footer div {
+	border-top: 1px solid #B8B8B8;
+}

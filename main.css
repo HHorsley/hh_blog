@@ -90,7 +90,12 @@ nav>ul>li:hover h2 {
 	font-weight: 800;
 }
 
+a {
+	color: #C1272D
+}
+
 a:hover {
+	color: #86171A;
 	text-decoration: none;
 }
 
