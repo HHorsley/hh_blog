@@ -5,3 +5,28 @@
 #top > h1 > a {
 	color: #9C9A9A;
 }
+
+.proj_thumb {
+	border-radius: 2px;
+}
+
+.proj_container {
+	padding-left: 108px;
+}
+
+.proj_row {
+	padding-bottom: 50px;
+}
+
+.proj_row_text {
+	text-align: right;
+}
+
+.proj_row_image {
+	margin-left: 70px;
+}
+
+footer {
+	margin-top: 50px;
+
+}
