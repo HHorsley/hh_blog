@@ -3,8 +3,13 @@
 	color: #C1272D;
 }
 
+#page-headline:hover + #uc {
+	visibility: visible;
+}
+
 #uc {
 	font-size: 16pt;
+	visibility: hidden;
 }
 
 #top > h1 > a {
@@ -15,6 +20,7 @@
 	border-radius: 2px;
 	transition: opacity 0.5s;
 	-webkit-transition: opacity 0.5s;
+	z-index: 4;
 }
 
 .proj_container {
@@ -29,8 +35,9 @@
 	text-align: right;
 }
 
-.proj_row_image {
-	margin-left: 50px;
+.proj_row_text > a > h2 {
+	color: #000;
+	font-weight: bold;
 }
 
 footer {
@@ -39,10 +46,28 @@ footer {
 }
 
 .proj_thumb:hover {
-	opacity: 0.05;
+	opacity: 0.1;
+}
+
+.proj_row_image:hover .image_hover {
+	color: #fff;
 }
 
 .proj_row_image {
 	background-color: #C1272D;
 	border-radius: 2px;
+	margin-left: 20px;
+	position: relative;
 }
+
+.image_hover {
+	position: absolute;
+	opacity: 1;
+	color: transparent;
+	margin: auto;
+	width: 58%;
+	height: 20%;
+	top: 0; left: 0; bottom: 0; right: 0;
+}
+
+
