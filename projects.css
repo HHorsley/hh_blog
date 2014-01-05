@@ -28,7 +28,7 @@
 }
 
 .proj_row {
-	padding-bottom: 50px;
+	padding-bottom: 90px;
 }
 
 .proj_row_text {
@@ -41,7 +41,7 @@
 }
 
 footer {
-	margin-top: 50px;
+	margin-top: 10px;
 
 }
 
@@ -58,6 +58,7 @@ footer {
 	border-radius: 2px;
 	margin-left: 20px;
 	position: relative;
+	margin-top: 15px;
 }
 
 .image_hover {
@@ -70,4 +71,15 @@ footer {
 	top: 0; left: 0; bottom: 0; right: 0;
 }
 
+.proj_work {
+	font-size: 10pt;
+	color: #9C9A9A;
+	font-variant: small-caps;
+	font-family: Graphik-Regular;
+	margin-bottom: 25px;
+}
+
+.proj_row_text > p {
+	line-height: 17pt;
+}
 
