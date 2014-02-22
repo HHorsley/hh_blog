@@ -1,0 +1,31 @@
+body {
+	background-color: #F2F2F2;
+}
+
+h1 {
+	color:#9C9A9A;
+	font-family: Sans-serif;
+}
+
+li > a {
+	font-family: Sans-serif;
+	color: #C1272D;
+	font-size: 16pt;
+	text-decoration: none;
+	line-height: 22pt;
+}
+
+li {
+	font-size: 16pt;
+	font-family: Sans-serif;
+	color:#9C9A9A;
+}
+
+.main {
+	margin: 70px 70px;
+}
+
+.container {
+	height: 100%;
+	width: 100%;
+}
